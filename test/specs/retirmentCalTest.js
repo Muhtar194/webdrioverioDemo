@@ -7,9 +7,9 @@ describe('Retirement Calculator', () => {
   beforeEach(async () => {
     if (executeBefore) {
       await RetirementCalculatorPage.open();
-      await browser.pause(5000); // Adjust pause as needed
+     
       await RetirementCalculatorPage.fillRequiredFields();
-      await browser.pause(5000);
+     
      
     }
   });
